@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/color1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Personal Website</title>
+</head>
+<body>
+    <!--Navbar-->
+        <nav id="desktop-nav">
+            <a href="#"><span><img src="/Images/sfil6cgo2m4rseabqeov.png" alt="logo"></span></a>
+            <ul class="nav-links">
+                <li> <a href="#about">About </a></li>
+                <li><a href="#experience"> Experience </a></li>
+                <li> <a href="#projects">Projects </a></li>
+                <li> <a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <nav id="hamburger-nav">
+            <div class="logo">Rafi</div>
+            <div class="hamburger-menu">
+                <div class="hambuger-icon" onclick="toogleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu-links">
+                    <li> <a href="#about" onclick="toogleMenu()">About</a></li>
+                    <li><a href="#experience" onclick="toogleMenu()">Experience</a></li>
+                    <li> <a href="#projects" onclick="toogleMenu()">Projects </a></li>
+                    <li> <a href="#contact" onclick="toogleMenu()">Contact </a></li>
+                </div>
+            </div>
+        </nav>
+        <!--Profile Section-->
+        <section id="profile">
+            <div class="section_pic-container">
+                <img src="Images/rafi.jpg" alt="rafi">
+            </div>
+            <div class="section-text">
+                <p class="section-text-p1">Hello I'm</p>
+                <h1 class="title">Rafi Un Noor</h1>
+                <p class="section-text-p2">Frontend Developer</p>
+                <div class="btn-container">
+                    <button class="btn btn-color-2" 
+                    onclick="window.open('./Images/Profile.pdf')">
+                        Download CV
+                    </button>
+                    <button class="btn btn-color-1" 
+                    onclick="location.href('./#contact')">
+                        Contact Info
+                    </button>
+                </div>
+                <div id="social-container">
+                    <img src="/Images/free-linkedin-icon-2166-thumb.png" alt="My LinkedIn Page"
+                    class="icon" onclick="location.href='https://www.linkedin.com/in/md-rafi-un-noor-washik-811787107/'"/>
+
+                    <img src="/Images/Github-Logo-PNG-Isolated-HD.png" alt="My Github Page"
+                    class="icon" onclick="location.href='https://github.com/RafiUnNoor'"/>
+                </div>
+            </div>
+        </section>
+        <!--About Section-->
+        <section id="about">
+            <p class="section-text-p1">Get to know more</p>
+            <h1 class="title">About Me </h1>
+            <div class="section-container">
+                <div class="section_pic-container">
+                    <img src="./Images/0_2323_Photo_2323_2021112515929.jpg" 
+                    alt="Profile Pic"
+                    class="about-pic">
+                </div>
+                <div class="about-details-container">
+                    <div class="about-containers">
+                        <div class="details-container">
+                            <img src="./Images/contest-icon-png-4.jpg" 
+                            alt="experience-icon"
+                            class="icon"/>
+                            <h3>Experience</h3>
+                            <p>2+ Years <br>Frontend Development</p>
+                        </div>
+                        <div class="details-container">
+                            <img src="./Images/397-3976471_education-icon-png-transparent-png.png" 
+                            alt="education-icon"
+                            class="icon"/>
+                            <h3>Education</h3>
+                            <p> B.sc Bachalors Degree <br> M.sc Masters Degree </p>
+                        </div>
+                    </div>
+                    <div class="text-container">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde tempora
+                             odit ullam qui incidunt maxime, ex perspiciatis est facere vel 
+                             voluptates optio magni similique enim. Omnis error adipisci 
+                             voluptas excepturi incidunt est quisquam pariatur voluptatem neque
+                              quia aliquid dignissimos ad non, ullam repudiandae commodi rem 
+                              aspernatur dolore hic tempora molestiae?</p>
+                    </div>
+                </div>
+            </div>
+            <img src="./Images/png-transparent-arrow-double-right-arrows-icon.png" 
+            alt="arrow-icon" class="icon" id="arrow-icon"
+            onclick="location.href='#experience' " />
+        </section>
+        <!--Experience Section-->
+        <section id="experience">
+            <p class="section-text-p1">Explore My</p>
+            <h1 class="title">Experience</h1>
+            <div class="experience-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <h2 class="experience-sub-title">Frontend Development</h2>
+                        <div class="article-container">
+                            <article>
+                                <img src="./Images/5290982.png" 
+                                alt="checkmark"
+                                class="icon"/>
+                                <div>
+                                    <h3>HTML</h3>
+                                    <p>Experienced </p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./Images/5290982.png" 
+                                alt="checkmark"
+                                class="icon"/>
+                                <div>
+                                    <h3>CSS</h3>
+                                    <p>Experienced </p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./Images/5290982.png" 
+                                alt="checkmark"
+                                class="icon"/>
+                                <div>
+                                    <h3>SASS</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./Images/5290982.png" 
+                                alt="checkmark"
+                                class="icon"/>
+                                <div>
+                                    <h3>JavaScript</h3>
+                                    <p>Experienced </p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./Images/5290982.png" 
+                                alt="checkmark"
+                                class="icon"/>
+                                <div>
+                                    <h3>TypeScript</h3>
+                                    <p>Experienced </p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./Images/5290982.png" 
+                                alt="checkmark"
+                                class="icon"/>
+                                <div>
+                                    <h3>Material UI</h3>
+                                    <p>Experienced </p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="details-container">
+                        <h2 class="experience-sub-title">Frontend Development</h2>
+                        <div class="article-container">
+                            <article>
+                                <img src="./Images/5290982.png" 
+                                alt="checkmark"
+                                class="icon"/>
+                                <div>
+                                    <h3>React</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./Images/5290982.png" 
+                                alt="checkmark"
+                                class="icon"/>
+                                <div>
+                                    <h3>NodeJS</h3>
+                                    <p>Intermediate </p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./Images/5290982.png" 
+                                alt="checkmark"
+                                class="icon"/>
+                                <div>
+                                    <h3>ExpressJS</h3>
+                                    <p>Basic </p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./Images/5290982.png" 
+                                alt="checkmark"
+                                class="icon"/>
+                                <div>
+                                    <h3>Git</h3>
+                                    <p>Intermediate </p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="./Images/png-transparent-arrow-double-right-arrows-icon.png" 
+            alt="arrow-icon" class="icon" id="arrow-icon"
+            onclick="location.href='#projects' " />
+        </section>
+        <!--Projects Section-->
+        <section id="projects">
+            <p class="section-text-p1">Browse My Recent</p>
+            <h3 class="title">Projects</h3>
+            <div class="experience-details-container">
+                <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./Images/Project 1.jpg" 
+                             alt="projects1" 
+                             class="project-img"/>
+                    </div>
+                    <h2 class="experience-sub-title project-title">Project One</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" 
+                        onclick="location.href='https://github.com/RafiUnNoor/Piano-Pr' ">
+                         Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" 
+                        onclick="location.href='https://github.com/RafiUnNoor/Piano-Pr' ">
+                         Live Demo 
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./Images/project 2.jpg" 
+                             alt="projects1" 
+                             class="project-img"/>
+                    </div>
+                    <h2 class="experience-sub-title project-title">Project Two</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" 
+                        onclick="location.href='https://github.com/RafiUnNoor/Piano-Pr' ">
+                         Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" 
+                        onclick="location.href='https://github.com/RafiUnNoor/Piano-Pr' ">
+                         Live Demo 
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./Images/project3.jpg" 
+                             alt="projects1" 
+                             class="project-img"/>
+                    </div>
+                    <h2 class="experience-sub-title project-title">Project Three</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" 
+                        onclick="location.href='https://github.com/RafiUnNoor/Piano-Pr' ">
+                         Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" 
+                        onclick="location.href='https://github.com/RafiUnNoor/Piano-Pr' ">
+                         Live Demo 
+                        </button>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <img src="./Images/png-transparent-arrow-double-right-arrows-icon.png" 
+            alt="arrow-icon" class="icon" id="arrow-icon"
+            onclick="location.href='#contact' " />
+        </section>
+        <!--Contact Section-->
+        <section id="contact">
+            <p class="section-text-p1">Get In Touch</p>
+            <h1 class="title"> Contact Me</h1>
+            <div class="contact-info-upper-container">
+                <div class="contact-info-container">
+                    <img src="./Images/6244438.png" 
+                    alt="email-icon"
+                    class="icon contact-icon"/>
+                    <p><a href="mailto:rafiun94@gmail.com">rafiun94@gmail.com</a></p>
+                </div>
+                <div class="contact-info-container">
+                    <img src="./Images/free-linkedin-icon-2166-thumb.png" 
+                    alt="LinkedIn-icon"
+                    class="icon contact-icon"/>
+                    <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+                </div>
+            </div>
+
+        </section>
+        <!--Footer Section-->
+        <footer>
+            <nav>
+                <div class="nav-link-container">
+                    <ul class="nav-links">
+                        <li> <a href="#about">About </a></li>
+                        <li><a href="#experience"> Experience </a></li>
+                        <li> <a href="#projects">Projects </a></li>
+                        <li> <a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <p>Copyright &#169; 2023 Rafi Un Noor | All Rights Reserved </p>
+        </footer>
+    
+    <script src="operator.js"></script>
+</body>
+</html>
